@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ssf="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@drawable/welcome_bg"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/welcome_icon" />
+
+    <com.ssf.linkcf.view.FancyButton
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:layout_below="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+          android:layout_marginLeft="23dp"
+          android:layout_marginRight="23dp"
+        ssf:borderWidth="1dp"
+        ssf:defaultColor="#ffcc66"
+        ssf:focusColor="#544f4b"
+        ssf:radius="5dp"
+        ssf:text="登陆"
+        ssf:textColor="@android:color/white" >
+    </com.ssf.linkcf.view.FancyButton>
+    
+    <com.ssf.linkcf.view.FancyButton
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:layout_below="@+id/btn_login"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="23dp"
+        ssf:borderWidth="1dp"
+        ssf:defaultColor="#544f4b"
+        ssf:focusColor="#ffcc66"
+        ssf:radius="5dp"
+        ssf:text="注册"
+        ssf:textColor="@android:color/white" >
+    </com.ssf.linkcf.view.FancyButton>
+
+</RelativeLayout>
