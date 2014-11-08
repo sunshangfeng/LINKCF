@@ -5,19 +5,5 @@
     <color name="ldrawer_color">#FFFFFF</color>
     <color name="navigation_list_state_color">#1C2127</color>
     <color name="navigation_list_color">#252932</color>
-    <color name="blue_pressed">#ff0099cc</color>
-    <color name="blue_normal">#ff33b5e5</color>
-    <color name="green_complete">#ff99cc00</color>
-    <color name="purple_progress">#ffaa66cc</color>
-    <color name="red_error">#ffff4444</color>
-    <color name="holo_blue_bright">#ff00ddff</color>
-    <color name="holo_green_light">#ff99cc00</color>
-    <color name="holo_orange_light">#ffffbb33</color>
-    <color name="holo_red_light">#ffff4444</color>
-
-    <color name="color1">#ff0f9d58</color>
-    <color name="color2">#ffdb4437</color>
-    <color name="color3">#ff4285f4</color>
-    <color name="color4">#fff4b400</color>
     
 </resources>

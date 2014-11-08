@@ -14,6 +14,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.google.gson.Gson;
 import com.ssf.linkcf.bean.LoginBean;
 import com.ssf.linkcf.helper.ComplexPreferencesHelper;
 import com.ssf.linkcf.helper.Constant.Preferences;
@@ -96,7 +97,7 @@ public class LoginActivity extends BaseActivity implements OnNetWorkListener {
 				map.put("UserName", username);
 				map.put("Password", password);
 				mProgress = ProgressDialog.show(mContext, null, "ÕýÔÚµÇÂ½..");
-				mNetWork.startNetWork(map, LoginBean.class);
+				mNetWork.startNetWork(map);
 			}
 		});
 	}
@@ -112,7 +113,7 @@ public class LoginActivity extends BaseActivity implements OnNetWorkListener {
 	@Override
 	public void onResponse(Object arg0) {
 		mProgress.dismiss();
-		LoginBean loginBean = (LoginBean) arg0;
+		LoginBean loginBean = new Gson().fromJson(arg0.toString(), LoginBean.class);
 		loginBean.setUserName(username);
 		loginBean.setPassword(password);
 		ComplexPreferencesHelper complexPreferences = ComplexPreferencesHelper

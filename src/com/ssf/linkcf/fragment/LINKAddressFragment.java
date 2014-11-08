@@ -9,6 +9,7 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 
+import com.google.gson.Gson;
 import com.ssf.linkcf.MainActivity;
 import com.ssf.linkcf.R;
 import com.ssf.linkcf.bean.AddressBean;
@@ -91,12 +92,12 @@ public class LINKAddressFragment extends ProgressListFragment implements OnNetWo
 		map.put("Method", "address. getlist");
 		map.put("UserID",loginBean.getUserID());
 		map.put("AccessToken", loginBean.getAccessToken());
-    	mNetWork.startNetWork(map, AddressBean.class);
+    	mNetWork.startNetWork(map);
     }
 
 	@Override
 	public void onResponse(Object arg0) {
-		AddressBean addressBean = (AddressBean)arg0;
+		AddressBean addressBean = new Gson().fromJson(arg0.toString(), AddressBean.class);
 		setEmptyText(addressBean.toString());
 		setListShown(true);
 	}

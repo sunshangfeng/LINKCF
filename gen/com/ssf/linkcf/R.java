@@ -9,15 +9,6 @@ package com.ssf.linkcf;
 
 public final class R {
     public static final class attr {
-        /**  Specifies whether or not to draw a circular border around the image. 
-         <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int border=0x7f01000e;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -37,31 +28,6 @@ theme attribute (in the form
 containing a value of this type.
          */
         public static final int borderWidth=0x7f01000b;
-        /**  Specifies the color of the border draw around the image. (if enabled) 
-         <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int border_color=0x7f01000f;
-        /**  Makes the border this pixels wide. (if enabled) 
-         <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int border_width=0x7f010010;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int circularImageViewStyle=0x7f010016;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -137,55 +103,6 @@ theme attribute (in the form
 containing a value of this type.
          */
         public static final int radius=0x7f01000d;
-        /**  Specifies whether or not to draw a selector on this view upon touch events. 
-         <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int selector=0x7f010011;
-        /**  Specifies the color of the selector draw on top of the image upon touch events. (if enabled) 
-         <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int selector_color=0x7f010012;
-        /**  Specifies the color of the selector stroke drawn around the image upon touch events. Be sure to provide some opacity. (if enabled) 
-         <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int selector_stroke_color=0x7f010013;
-        /**  Makes the selector stroke drawn around the image upon touch events this pixels wide. (if enabled) 
-         <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int selector_stroke_width=0x7f010014;
-        /**  Specifies whether or not to draw a shadow around your circular image. 
-         <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int shadow=0x7f010015;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -224,22 +141,9 @@ containing a value of this type.
     }
     public static final class color {
         public static final int actionbar_color=0x7f040000;
-        public static final int blue_normal=0x7f040005;
-        public static final int blue_pressed=0x7f040004;
-        public static final int color1=0x7f04000d;
-        public static final int color2=0x7f04000e;
-        public static final int color3=0x7f04000f;
-        public static final int color4=0x7f040010;
-        public static final int green_complete=0x7f040006;
-        public static final int holo_blue_bright=0x7f040009;
-        public static final int holo_green_light=0x7f04000a;
-        public static final int holo_orange_light=0x7f04000b;
-        public static final int holo_red_light=0x7f04000c;
         public static final int ldrawer_color=0x7f040001;
         public static final int navigation_list_color=0x7f040003;
         public static final int navigation_list_state_color=0x7f040002;
-        public static final int purple_progress=0x7f040007;
-        public static final int red_error=0x7f040008;
     }
     public static final class dimen {
         /**  Default screen margins, per the Android Design guidelines. 
@@ -312,34 +216,35 @@ containing a value of this type.
         public static final int welcome_icon=0x7f02002e;
     }
     public static final class id {
-        public static final int action_edit=0x7f09001c;
-        public static final int action_sort=0x7f09001d;
+        public static final int action_edit=0x7f09001d;
+        public static final int action_sort=0x7f09001e;
         public static final int bottom=0x7f090000;
         public static final int btn_login=0x7f09000e;
         public static final int btn_login_main=0x7f090006;
         public static final int btn_register=0x7f09000f;
         public static final int button1=0x7f09000c;
         public static final int container=0x7f090009;
-        public static final int content=0x7f09001b;
-        public static final int content_container=0x7f090016;
+        public static final int content=0x7f09001c;
+        public static final int content_container=0x7f090017;
         public static final int drawer_layout=0x7f090008;
         public static final int fragment_index_listView=0x7f090010;
-        public static final int fragment_navigation_image=0x7f090011;
-        public static final int fragment_navigation_list=0x7f090012;
-        public static final int grid=0x7f090018;
-        public static final int grid_container=0x7f090017;
+        public static final int fragment_navigation_list=0x7f090013;
+        public static final int grid=0x7f090019;
+        public static final int grid_container=0x7f090018;
         public static final int imageView1=0x7f09000d;
+        public static final int index_item_content_text=0x7f090012;
+        public static final int index_item_title_image=0x7f090011;
+        public static final int index_item_title_text=0x7f090007;
         public static final int left=0x7f090001;
         public static final int linear_pass=0x7f09000b;
-        public static final int list_container=0x7f090019;
-        public static final int menu_refresh=0x7f09001e;
+        public static final int list_container=0x7f09001a;
+        public static final int menu_refresh=0x7f09001f;
         public static final int navigation_drawer=0x7f09000a;
-        public static final int progress_container=0x7f090014;
-        public static final int progress_text=0x7f090015;
+        public static final int progress_container=0x7f090015;
+        public static final int progress_text=0x7f090016;
         public static final int right=0x7f090002;
-        public static final int swipe_refresh_widget=0x7f09001a;
-        public static final int text1=0x7f090013;
-        public static final int textView1=0x7f090007;
+        public static final int swipe_refresh_widget=0x7f09001b;
+        public static final int text1=0x7f090014;
         public static final int text_password=0x7f090004;
         public static final int text_username=0x7f090005;
         public static final int top=0x7f090003;
@@ -350,12 +255,13 @@ containing a value of this type.
         public static final int activity_register=0x7f030002;
         public static final int activity_welcome=0x7f030003;
         public static final int fragment_index=0x7f030004;
-        public static final int fragment_navigation_drawer=0x7f030005;
-        public static final int fragment_navigation_list_item=0x7f030006;
-        public static final int fragment_progress=0x7f030007;
-        public static final int fragment_progress_grid=0x7f030008;
-        public static final int fragment_progress_list=0x7f030009;
-        public static final int swipe_refresh_widget=0x7f03000a;
+        public static final int fragment_index_list_item=0x7f030005;
+        public static final int fragment_navigation_drawer=0x7f030006;
+        public static final int fragment_navigation_list_item=0x7f030007;
+        public static final int fragment_progress=0x7f030008;
+        public static final int fragment_progress_grid=0x7f030009;
+        public static final int fragment_progress_list=0x7f03000a;
+        public static final int swipe_refresh_widget=0x7f03000b;
     }
     public static final class menu {
         public static final int draw=0x7f080000;
@@ -363,27 +269,17 @@ containing a value of this type.
         public static final int refresh=0x7f080002;
     }
     public static final class string {
-        public static final int action_sort=0x7f06000b;
-        public static final int activity_login=0x7f06000c;
-        public static final int activity_register=0x7f06000d;
-        public static final int app_name=0x7f06000a;
-        public static final int define_processbutton=0x7f060000;
-        public static final int library_processbutton_author=0x7f060001;
-        public static final int library_processbutton_authorWebsite=0x7f060002;
-        public static final int library_processbutton_isOpenSource=0x7f060008;
-        public static final int library_processbutton_libraryDescription=0x7f060004;
-        public static final int library_processbutton_libraryName=0x7f060003;
-        public static final int library_processbutton_libraryVersion=0x7f060005;
-        public static final int library_processbutton_libraryWebsite=0x7f060006;
-        public static final int library_processbutton_licenseId=0x7f060007;
-        public static final int library_processbutton_repositoryLink=0x7f060009;
-        public static final int navigation_drawer_close=0x7f060014;
-        public static final int navigation_drawer_open=0x7f060013;
-        public static final int title_address=0x7f060010;
-        public static final int title_balance=0x7f06000f;
-        public static final int title_collection=0x7f060011;
-        public static final int title_order=0x7f06000e;
-        public static final int title_setting=0x7f060012;
+        public static final int action_sort=0x7f060001;
+        public static final int activity_login=0x7f060002;
+        public static final int activity_register=0x7f060003;
+        public static final int app_name=0x7f060000;
+        public static final int navigation_drawer_close=0x7f06000a;
+        public static final int navigation_drawer_open=0x7f060009;
+        public static final int title_address=0x7f060006;
+        public static final int title_balance=0x7f060005;
+        public static final int title_collection=0x7f060007;
+        public static final int title_order=0x7f060004;
+        public static final int title_setting=0x7f060008;
     }
     public static final class style {
         public static final int ActionBar_Solid_Linkcf=0x7f070003;
@@ -416,192 +312,6 @@ containing a value of this type.
         public static final int Theme_Linkcf_Widget=0x7f07000b;
     }
     public static final class styleable {
-        /**  CircularImageView for custom shape 
-           <p>Includes the following attributes:</p>
-           <table>
-           <colgroup align="left" />
-           <colgroup align="left" />
-           <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CircularImageView_border com.ssf.linkcf:border}</code></td><td> Specifies whether or not to draw a circular border around the image.</td></tr>
-           <tr><td><code>{@link #CircularImageView_border_color com.ssf.linkcf:border_color}</code></td><td> Specifies the color of the border draw around the image.</td></tr>
-           <tr><td><code>{@link #CircularImageView_border_width com.ssf.linkcf:border_width}</code></td><td> Makes the border this pixels wide.</td></tr>
-           <tr><td><code>{@link #CircularImageView_selector com.ssf.linkcf:selector}</code></td><td> Specifies whether or not to draw a selector on this view upon touch events.</td></tr>
-           <tr><td><code>{@link #CircularImageView_selector_color com.ssf.linkcf:selector_color}</code></td><td> Specifies the color of the selector draw on top of the image upon touch events.</td></tr>
-           <tr><td><code>{@link #CircularImageView_selector_stroke_color com.ssf.linkcf:selector_stroke_color}</code></td><td> Specifies the color of the selector stroke drawn around the image upon touch events.</td></tr>
-           <tr><td><code>{@link #CircularImageView_selector_stroke_width com.ssf.linkcf:selector_stroke_width}</code></td><td> Makes the selector stroke drawn around the image upon touch events this pixels wide.</td></tr>
-           <tr><td><code>{@link #CircularImageView_shadow com.ssf.linkcf:shadow}</code></td><td> Specifies whether or not to draw a shadow around your circular image.</td></tr>
-           </table>
-           @see #CircularImageView_border
-           @see #CircularImageView_border_color
-           @see #CircularImageView_border_width
-           @see #CircularImageView_selector
-           @see #CircularImageView_selector_color
-           @see #CircularImageView_selector_stroke_color
-           @see #CircularImageView_selector_stroke_width
-           @see #CircularImageView_shadow
-         */
-        public static final int[] CircularImageView = {
-            0x7f01000e, 0x7f01000f, 0x7f010010, 0x7f010011,
-            0x7f010012, 0x7f010013, 0x7f010014, 0x7f010015
-        };
-        /**
-          <p>
-          @attr description
-           Specifies whether or not to draw a circular border around the image. 
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name com.ssf.linkcf:border
-        */
-        public static final int CircularImageView_border = 0;
-        /**
-          <p>
-          @attr description
-           Specifies the color of the border draw around the image. (if enabled) 
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name com.ssf.linkcf:border_color
-        */
-        public static final int CircularImageView_border_color = 1;
-        /**
-          <p>
-          @attr description
-           Makes the border this pixels wide. (if enabled) 
-
-
-          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name com.ssf.linkcf:border_width
-        */
-        public static final int CircularImageView_border_width = 2;
-        /**
-          <p>
-          @attr description
-           Specifies whether or not to draw a selector on this view upon touch events. 
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name com.ssf.linkcf:selector
-        */
-        public static final int CircularImageView_selector = 3;
-        /**
-          <p>
-          @attr description
-           Specifies the color of the selector draw on top of the image upon touch events. (if enabled) 
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name com.ssf.linkcf:selector_color
-        */
-        public static final int CircularImageView_selector_color = 4;
-        /**
-          <p>
-          @attr description
-           Specifies the color of the selector stroke drawn around the image upon touch events. Be sure to provide some opacity. (if enabled) 
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name com.ssf.linkcf:selector_stroke_color
-        */
-        public static final int CircularImageView_selector_stroke_color = 5;
-        /**
-          <p>
-          @attr description
-           Makes the selector stroke drawn around the image upon touch events this pixels wide. (if enabled) 
-
-
-          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name com.ssf.linkcf:selector_stroke_width
-        */
-        public static final int CircularImageView_selector_stroke_width = 6;
-        /**
-          <p>
-          @attr description
-           Specifies whether or not to draw a shadow around your circular image. 
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name com.ssf.linkcf:shadow
-        */
-        public static final int CircularImageView_shadow = 7;
-        /** Attributes that can be used with a CustomCircularImageViewTheme.
-           <p>Includes the following attributes:</p>
-           <table>
-           <colgroup align="left" />
-           <colgroup align="left" />
-           <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CustomCircularImageViewTheme_circularImageViewStyle com.ssf.linkcf:circularImageViewStyle}</code></td><td></td></tr>
-           </table>
-           @see #CustomCircularImageViewTheme_circularImageViewStyle
-         */
-        public static final int[] CustomCircularImageViewTheme = {
-            0x7f010016
-        };
-        /**
-          <p>This symbol is the offset where the {@link com.ssf.linkcf.R.attr#circularImageViewStyle}
-          attribute's value can be found in the {@link #CustomCircularImageViewTheme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ssf.linkcf:circularImageViewStyle
-        */
-        public static final int CustomCircularImageViewTheme_circularImageViewStyle = 0;
         /** Attributes that can be used with a FancyButtonsAttrs.
            <p>Includes the following attributes:</p>
            <table>

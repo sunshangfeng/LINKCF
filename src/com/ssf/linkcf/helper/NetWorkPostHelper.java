@@ -36,7 +36,7 @@ public class NetWorkPostHelper {
 	/**
 	 * 开始网络连接
 	 */
-	public void startNetWork(Map<String, Object> map,final Class< ? extends Object> classOfT) {
+	public void startNetWork(Map<String, Object> map) {
 
 		VolleyLog.d("请求的 =[%s]", new JSONObject(map).toString());
 		
@@ -47,7 +47,7 @@ public class NetWorkPostHelper {
 						VolleyLog.d("正确返回的=[%s]", arg0.toString());
 						try {
 							if (arg0.getString(STATUS).equals("1")&& mNetWorkListener != null) {
-								mNetWorkListener.onResponse(new Gson().fromJson(arg0.get("Data").toString(), classOfT));
+								mNetWorkListener.onResponse(arg0.get("Data"));
 							}else {
 								mNetWorkListener.onErrorResponse(arg0.getString("Msg"));
 							}

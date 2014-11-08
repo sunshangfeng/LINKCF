@@ -2,5 +2,8 @@
 <lint>
     <issue id="ClickableViewAccessibility" severity="ignore" />
     <issue id="HandlerLeak" severity="ignore" />
+    <issue id="InflateParams">
+        <ignore path="src/com/ssf/linkcf/fragment/IndexFragment.java" />
+    </issue>
     <issue id="NewApi" severity="ignore" />
 </lint>

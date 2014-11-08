@@ -22,12 +22,12 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
+import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
 
 import com.ssf.linkcf.R;
 import com.ssf.linkcf.view.ActionBarDrawerToggle;
-import com.ssf.linkcf.view.CircularImageView;
 import com.ssf.linkcf.view.DrawerArrowDrawable;
 
 public class NavigationDrawerFragment extends Fragment {
@@ -116,7 +116,7 @@ public class NavigationDrawerFragment extends Fragment {
 		View view = (View) inflater.inflate(
 				R.layout.fragment_navigation_drawer, container, false);
 		
-		CircularImageView mImageView =  (CircularImageView) view.findViewById(R.id.fragment_navigation_image);
+		ImageView mImageView =  (ImageView) view.findViewById(R.id.index_item_title_image);
 		mImageView.setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View v) {

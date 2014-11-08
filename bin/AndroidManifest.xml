@@ -12,13 +12,14 @@
     
     <application
         android:allowBackup="true"
+        android:name="com.ssf.linkcf.BaseAppliction"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".WelcomeActivity"
+            android:name=".MainActivity"
             android:label="@string/app_name"
-            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -26,7 +27,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".LoginActivity" android:label="@string/activity_login"></activity>
-        <activity android:name=".MainActivity" android:label="@string/app_name"></activity>
+        <activity android:name=".WelcomeActivity" android:theme="@android:style/Theme.Holo.Light.NoActionBar" ></activity>
         <activity android:name=".RegisteredActivity" android:label="@string/activity_register"></activity>
     </application>
 
